@@ -1,4 +1,10 @@
 Rails.application.routes.draw do
+  get 'results/survey'
+
+  get 'results/test'
+
+  get 'results/individual'
+
   resources :tests
 
   get 'site/index'
