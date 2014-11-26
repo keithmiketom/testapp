@@ -14,7 +14,7 @@
  *= require normalize
  *= require_self
  */
-
+@import url(http://fonts.googleapis.com/css?family=Michroma|Anonymous+Pro:400,700|Oxygen|Pacifico);
 html, body {height: 100%;}
 
 #wrap {min-height: 100%;}
@@ -36,4 +36,6 @@ body:before {
 	margin-top:-32767px;/
 }
 
-body {text-align:justify;}
+body {text-align:justify; font-family: Oxygen;}
+h1 {font-family:Pacifico;}
+h1.title {font-family:Michroma;color:yellow;}

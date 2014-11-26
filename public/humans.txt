@@ -3,10 +3,10 @@
 
 
 /* TEAM */
-  <your title>: <your name>
-  Site:
-  Twitter:
-  Location:
+  Designer and Developer: Keith Michael Gregg
+  Site:www.keithgregg.com
+  Twitter: @keithmiketom
+  Location:Sunny Dublin
 
 /* THANKS */
   Names (& URL):
@@ -14,7 +14,7 @@
 /* SITE */
   Standards: HTML5, CSS3
   Components: Modernizr, jQuery
-  Software:
+  Software:Ruby on Rails 4
 
 
 
