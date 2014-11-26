@@ -11,6 +11,16 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 0) do
+ActiveRecord::Schema.define(version: 20141126182121) do
+
+  create_table "tests", force: true do |t|
+    t.string   "question"
+    t.string   "answera"
+    t.string   "answerb"
+    t.string   "answerc"
+    t.string   "answerd"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
 end

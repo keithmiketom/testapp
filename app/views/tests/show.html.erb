@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Question:</strong>
+  <%= @test.question %>
+</p>
+
+<p>
+  <strong>Answera:</strong>
+  <%= @test.answera %>
+</p>
+
+<p>
+  <strong>Answerb:</strong>
+  <%= @test.answerb %>
+</p>
+
+<p>
+  <strong>Answerc:</strong>
+  <%= @test.answerc %>
+</p>
+
+<p>
+  <strong>Answerd:</strong>
+  <%= @test.answerd %>
+</p>
+
+<%= link_to 'Edit', edit_test_path(@test) %> |
+<%= link_to 'Back', tests_path %>
