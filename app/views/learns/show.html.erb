@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @learn.title %>
+</p>
+
+<p>
+  <strong>Image:</strong>
+  <%= @learn.image %>
+</p>
+
+<p>
+  <strong>Site:</strong>
+  <%= @learn.site %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @learn.description %>
+</p>
+
+<p>
+  <strong>Free:</strong>
+  <%= @learn.free %>
+</p>
+
+<%= link_to 'Edit', edit_learn_path(@learn) %> |
+<%= link_to 'Back', learns_path %>

@@ -1,0 +1,39 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @detail.name %>
+</p>
+
+<p>
+  <strong>Age:</strong>
+  <%= @detail.age %>
+</p>
+
+<p>
+  <strong>Email:</strong>
+  <%= @detail.email %>
+</p>
+
+<p>
+  <strong>Lenghtteach:</strong>
+  <%= @detail.lenghtteach %>
+</p>
+
+<p>
+  <strong>Profession:</strong>
+  <%= @detail.profession %>
+</p>
+
+<p>
+  <strong>Ictlevel:</strong>
+  <%= @detail.ictlevel %>
+</p>
+
+<p>
+  <strong>Research:</strong>
+  <%= @detail.research %>
+</p>
+
+<%= link_to 'Edit', edit_detail_path(@detail) %> |
+<%= link_to 'Back', details_path %>

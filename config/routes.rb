@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  resources :details
+
+  resources :learns
+
   get 'results/survey'
 
   get 'results/test'
