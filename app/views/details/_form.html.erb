@@ -2,16 +2,18 @@
   <%= f.error_notification %>
 
   <div class="form-inputs">
-    <%= f.input :name %>
-    <%= f.input :age %>
-    <%= f.input :email %>
-    <%= f.input :lenghtteach %>
-    <%= f.input :profession %>
-    <%= f.input :ictlevel %>
-    <%= f.input :research %>
+    <%= f.input :name, :label => 'Please tell me your name' %>
+    <%= f.input :age, :label => 'How old are you?' %>
+    <%= f.input :email, :label => 'Please submit email, so we can send you results' %>
+    <%= f.input :profession, :label => 'What Profession/background are you from?' %><i>collection list</i>
+    <%= f.input :lenghtteach, :label => 'If a teacher how long have you been teaching?' %> <i>collection list</i>
+    <p>From a scale of zero to five, 0 being no competance, and 5 being very competant, how competant are your ICT skills?</p>
+    <%= f.input :ictlevel, :label => 'ICT Proficiency' %>
+    <p>Please click the box to allow your anonymous results being included in this research study.</p>
+    <%= f.input :research, :label => 'Do you consent', :checked => 'checked' %>
   </div>
 
   <div class="form-actions">
-    <%= f.button :submit %>
+    <%= f.submit 'Submit' %>
   </div>
 <% end %>
