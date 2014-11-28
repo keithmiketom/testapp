@@ -39,7 +39,11 @@ body:before {
 
 body {text-align:justify; font-family: Oxygen;}
 h1 {font-family:Pacifico;}
-h1.title {font-family:Michroma;color:yellow;}
+h1.title a {font-family:Michroma;color:yellow;text-decoration: none;}
+h1.title a:hover {font-family:Michroma;color:hsl(109, 84%, 50%); 
+font-style:oblique;
+text-decoration: none;}
+
 
 article{background-color:hsla(226, 94%, 50%, 0.2);padding:10px 20px 30px;margin-bottom:30px;border-top-right-radius: 40px;}
 aside{margin-bottom:30px;}

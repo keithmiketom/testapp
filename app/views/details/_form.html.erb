@@ -3,7 +3,7 @@
 
   <div class="form-inputs">
     <%= f.input :name, :label => 'Please tell me your name' %>
-    <%= f.input :age, :label => 'How old are you?' %>
+    &nbsp;  &nbsp;<%= f.input :age, collection: 10..80, :label => 'How old are you?' %>
     <%= f.input :email, :label => 'Please submit email, so we can send you results' %>
 
    <%= f.label :profession, 'What Profession/background are you from?'%>
