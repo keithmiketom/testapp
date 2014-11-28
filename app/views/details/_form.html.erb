@@ -12,13 +12,12 @@
     &nbsp;<%= f.select :lenghtteach, Detail::TEACHLENGTH, :label => 'If a teacher, how long have you been teaching?', :required => true %><br /><br />
    <%= f.label :location, 'What area do you live/work in?' %>
     &nbsp;<%= f.select :lenghtteach, Detail::LOCATION, :label => 'What area do you live/work in?', :required => true %>
+    <br /><br />
+   <%= f.label :ictlevel, 'From a scale of one to five, 1 being no competance, and 5 being very competant, how competant are your ICT skills?' %>
+    &nbsp;<%= f.select :ictlevel, Detail::PROFICIENCY, :label => 'What area do you live/work in?', :required => true %>
     
-    
-    
-    <p>From a scale of zero to five, 0 being no competance, and 5 being very competant, how competant are your ICT skills?</p>
-    <%= f.input :ictlevel, :label => 'ICT Proficiency', :required => true  %>
     <p>Please click the box to allow your anonymous results being included in this research study.</p>
-    <%= f.input :research, :label => 'Do you consent', :checked => 'checked', as: :boolean %>
+    <%= f.check_box :research, :name => 'Do you consent', :checked => 'checked', as: :boolean %>
   </div>
 
   <div class="form-actions">
