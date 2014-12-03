@@ -1,2 +1,75 @@
-<h1>Results#survey</h1>
-<p>Find me in app/views/results/survey.html.erb</p>
+
+<h1>Art Teacher Survey Results</h1>
+<p>In September 2014, I carried out a survey of Art Teachers, through the <abbr title="Art Teachers' Association of Ireland">ATAI</abbr>. I wanted to gauge the level of <abbr title="Information, Communications Technology">ICT</abbr> Skill and communication of Art Teachers in Ireland.</p>
+
+
+<h2>How long have you been Teaching?</h2>
+	<canvas id="myChart" width="400" height="400">
+	
+</canvas>
+<script>
+$( document ).ready(function() {
+	
+    showTooltips: true;
+
+    tooltipEvents: ["mousemove", "touchstart", "touchmove"];
+
+    tooltipFillColor: "rgba(0,0,0,0.8)";
+
+    tooltipFontFamily: "'Helvetica Neue', 'Helvetica', 'Arial', sans-serif";
+
+   
+
+var data = [
+    {
+        value: 107,
+        color:"#F7464A",
+        highlight: "#FF5A5E",
+        label: "0-5 Years NQT"
+    },
+    {
+        value: 104,
+        color: "#46BFBD",
+        highlight: "#5AD3D1",
+        label: "5-10 Years"
+    },
+      {
+        value: 27,
+        color:"#F7464A",
+        highlight: "#FF5A5E",
+        label: "10-15 Years"
+    },
+    {
+        value: 59,
+        color: "#46BFBD",
+        highlight: "#5AD3D1",
+        label: "15-20 Years"
+    },
+    {
+        value: 62,
+        color: "#FDB45C",
+        highlight: "#FFC870",
+        label: "20+ Years"
+    }
+];
+
+	var ctx = document.getElementById("myChart").getContext("2d");
+	var myNewChart = new Chart(ctx).Doughnut(data);
+
+
+	
+
+});
+
+
+
+</script>
+
+
+
+
+
+
+
+
+  <!-- JavaScript at the bottom for fast page loading: http://developer.yahoo.com/performance/rules.html#js_bottom -->

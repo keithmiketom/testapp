@@ -50,3 +50,15 @@ aside{margin-bottom:30px;}
 
 .button {background-color:teal; padding: 10px 20px; border:1px solid black; border-radius:50px; }
 .button{color:white;text-decoration:none;}
+
+
+aside.deviseside a, footer a{
+	color:white;
+	text-decoration:none;
+	
+	
+}
+
+aside.deviseside a:hover, footer a:hover{
+	color:yellow;
+}

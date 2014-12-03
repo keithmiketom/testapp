@@ -18,6 +18,8 @@ gem 'devise'
 
 gem 'simple_form'
 
+gem 'chart-js-rails'
+
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'

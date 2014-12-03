@@ -1,5 +1,8 @@
 <h1>Please Submit Details before taking the Test</h1>
 
 <%= render 'form' %>
-
+<% if user_signed_in? %>
 <%= link_to 'Back', details_path %>
+<% else %>
+<p></p>
+<% end %>
