@@ -1,29 +1,26 @@
-<p id="notice"><%= notice %></p>
-
 <p>
   <strong>Question:</strong>
   <%= @test.question %>
 </p>
 
-<p>
-  <strong>Answera:</strong>
-  <%= @test.answera %>
-</p>
-
-<p>
-  <strong>Answerb:</strong>
-  <%= @test.answerb %>
-</p>
-
-<p>
-  <strong>Answerc:</strong>
-  <%= @test.answerc %>
-</p>
-
-<p>
-  <strong>Answerd:</strong>
-  <%= @test.answerd %>
-</p>
+<aside>
+	<h2>Answers</h2>
+	<p>Please select an Answer</p>
+	<ul>
+		<li>
+			  <%= @test.answera %>
+		</li>
+		<li>
+			  <%= @test.answerb %>
+		</li>
+		<li>
+			  <%= @test.answerc %>
+		</li>
+		<li>
+			  <%= @test.answerd %>
+		</li>
+	</ul>
+</aside>
 
 <%= link_to 'Edit', edit_test_path(@test) %> |
 <%= link_to 'Back', tests_path %>
