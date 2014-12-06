@@ -43,3 +43,28 @@ table {
   text-align:center;
   border-width:0px 0px 1px 1px;
 }
+
+.learnable {
+  width:40%;
+  padding:10px 15px 20px;
+  background-color:hsla(226, 94%, 50%, 0.2);
+  border-top-right-radius:40px;
+  margin:10px 10px;
+  float:left;
+  h2 {font-family:Michroma;
+  }
+  a {
+    border:1px solid darken(teal, 20%);
+    border-radius:2px;
+    padding:3px 4px;
+    color:white;
+    background-color:teal;
+    font-size:0.8em;
+    text-decoration:none;
+    &:hover{
+      color:black;
+      background-color:yellow;
+      
+    }
+  }
+}
