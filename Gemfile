@@ -22,6 +22,8 @@ gem 'chart-js-rails'
 
 gem 'humanize_boolean'
 gem 'lazy_high_charts'
+#convert xls to  yaml
+gem 'heart_seed'
 
 
 # Use jquery as the JavaScript library
