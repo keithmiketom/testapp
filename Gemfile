@@ -21,6 +21,7 @@ gem 'simple_form'
 gem 'chart-js-rails'
 
 gem 'humanize_boolean'
+gem 'lazy_high_charts'
 
 
 # Use jquery as the JavaScript library
