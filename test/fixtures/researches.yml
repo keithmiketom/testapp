@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  type: 
+  question: MyString
+  subquestion: MyString
+  data: MyString
+  range: MyString
+
+two:
+  type: 
+  question: MyString
+  subquestion: MyString
+  data: MyString
+  range: MyString

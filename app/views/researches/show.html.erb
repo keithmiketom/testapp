@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Type:</strong>
+  <%= @research.type %>
+</p>
+
+<p>
+  <strong>Question:</strong>
+  <%= @research.question %>
+</p>
+
+<p>
+  <strong>Subquestion:</strong>
+  <%= @research.subquestion %>
+</p>
+
+<p>
+  <strong>Data:</strong>
+  <%= @research.data %>
+</p>
+
+<p>
+  <strong>Range:</strong>
+  <%= @research.range %>
+</p>
+
+<%= link_to 'Edit', edit_research_path(@research) %> |
+<%= link_to 'Back', researches_path %>
