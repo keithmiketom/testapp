@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
-  resources :researches
+  resources :answers
+
+  resources :questions
 
   devise_for :admins
   devise_for :users
