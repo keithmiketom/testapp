@@ -2,6 +2,8 @@ class Question < ActiveRecord::Base
   
   has_many :answers
   
+  accepts_nested_attributes_for :answers
+  
   def answer
    uncorrect
    answers.select {|c| c.correct}[0]

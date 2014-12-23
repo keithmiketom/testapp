@@ -2,9 +2,10 @@ class AnswersController < ApplicationController
  
   def create
    @question = Question.find(params[:question])
-   text = params[:text]
+   answer = params[:question]
    correct = params[:correct] == "1"
-   new = answer.create(:text => text, :correct => correct, :question_id => @question.id)
+   
+   new = Answer.create(:answer => answer, :correct => correct, :question_id => @question.id)
    
    if new.correct
     @question.answer = new

@@ -1,7 +1,10 @@
 Rails.application.routes.draw do
-  resources :answers
+  
+    resources :answers
+    post "answers/destroy"
+  resources :questions do
 
-  resources :questions
+  end
 
   devise_for :admins
   devise_for :users
